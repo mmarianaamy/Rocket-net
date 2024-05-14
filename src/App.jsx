@@ -2,13 +2,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import Footer from "./Components/Footer"
 import Menu from "./Components/Menu"
-import Home from "./Pages/Home"
-import Arca from "./Pages/Arca"
-import Impacto from "./Pages/Impacto"
-import Evento from "./Pages/Evento"
+import Home from "./pages/Home"
+import Arca from "./pages/Arca"
+import Impacto from "./pages/Impacto"
+import Evento from "./pages/Evento"
 import Contacto from "./Components/Contacto"
-import Terminos from "./Pages/Terminos"
-import DesafiosP from "./Pages/DesafiosP"
+import Terminos from "./pages/Terminos"
+import DesafiosP from "./pages/DesafiosP"
 
 function App() {
 
