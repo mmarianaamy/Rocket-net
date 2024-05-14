@@ -1,8 +1,4 @@
 import React from 'react'
-import desafio1 from '../Assets/Desafio1.jpeg'
-import desafio2 from '../Assets/Desafio2.jpeg'
-import desafio3 from '../Assets/Desafio3.jpeg'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 export default function Desafio({id}) {
   var fotos = [desafio1, desafio2, desafio3];
@@ -13,7 +9,6 @@ export default function Desafio({id}) {
         <p>Desafio {id}</p>
         <p style={{color: "white"}}>{info[id - 1]}</p>
         <button><b>Ver más</b></button>
-        <Link to={`Desafios/${id}`}>asdf</Link>
       </div>
     </div>
   )

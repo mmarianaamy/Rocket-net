@@ -42,3 +42,8 @@
     cursor: pointer;
     font-size: 24px;
 }
+
+.topDesafio{
+    display: flex;
+    text-align: center;
+}
