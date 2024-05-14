@@ -1,0 +1,66 @@
+img{
+    width: 20%;
+}
+
+.menu{
+    background: linear-gradient(0.25turn, #7E0050, #E20000, #FE4A00, #FB8800);
+    padding-left: 1%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expand{
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+#dropDown{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0.25turn, #7E0050, #E20000, #FE4A00, #FB8800);
+}
+
+@media screen and (max-width: 950px) {
+    .menu a{
+        display: none;
+    }
+    .menu button.terminos{
+        display: none;
+    }
+    .menu{
+        height: 70px;
+    }
+    .expand{
+        display:block;
+    }
+
+    #dropDown .select{
+        margin: 4% auto;
+    }
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.terminos{
+    background-color: #000000D4;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    height: 70px;
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}

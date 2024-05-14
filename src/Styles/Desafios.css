@@ -1,0 +1,44 @@
+.desafiosHeading{
+    background: linear-gradient(270deg, #7E0050 0%, #E20000 50%, #FE4A00 75%, #FB8800 100%);
+    text-align: center;
+    color: white;
+    padding: 4%;
+    font-size: 40px;
+}
+.desafios{
+    display: flex;
+}
+.desafio{
+    width: 33.33%;
+    height: 800px;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.desafioTitulo{
+    height: 40%;
+    background: #0C0000BA;
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+}
+
+.desafioTitulo p{
+    color: #FB8800;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.desafioTitulo button{
+    margin-top: 10%;
+    background-color: white;
+    border-style: none;
+    border-radius: 50px;
+    height: 70px;
+    width: 180px;
+    cursor: pointer;
+    font-size: 24px;
+}

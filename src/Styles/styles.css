@@ -1,0 +1,9 @@
+@import url('./Rules.css');
+@import url('./Banner.css');
+@import url('./Beneficios.css');
+@import url('./Contacto.css');
+@import url('./Menu.css');
+@import url('./Desafios.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Agregar los demás estilos de los elementos */
