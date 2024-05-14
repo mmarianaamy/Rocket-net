@@ -1,43 +1,128 @@
+.bannerMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+    margin-bottom: 10%;
+}
+
+
 .banner{
-    color:black;
-    background: var(--bg);
-    position: relative;
-    min-height: 10rem;
-    max-height: 30rem;
-    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.transparent{
+    background-color: #0C0000BA;
+    color: white;
+}
+
+.apply{
+    background-color: white;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 50px;
+    width: 100%;
+    height: 40%;
+    margin: 2%;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.info{
+    width: 65%;
+    text-align: center;
+}
+
+.big{
+    font-size: 40px;
+}
+
+.different{
+    color: #E20000  ;
+}
+
+.revisar{
+    padding: 0 8%;
+    text-align: center;
+    width: 80%;
+}
+
+.bannerMainLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.verMas{
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.patrocinador{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.patrocinador{
+    padding: 5% 3%;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoTextPat{
+    font-size: 24px;
+    width: 80%;
+    padding: 5%;
+}
+.infoTextPat img{
+    width: 100%;
+    margin: 5% auto;
+}
+
+.moreInfo{
+    color: blue;
+}
+
+.video{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.video iframe{
+    width: 500px;
+    height: 300px;
+    margin: 5%;
+}
 
+.infoPat{
+    display: flex;
+    justify-content: space-around;
 }
-.banner > * {
-    position: relative;
-    z-index: 1;
-}
-.banner .desc{
-    background-color: var(--transparent);
-    color: var(--white);
-    padding: 2rem;
-    font-size: 1.5rem;
-    margin: 5rem 3rem;
-}
-.banner  .aplica{
-    background-color: var(--white);
-    padding: 1rem;
-    border-radius: 1rem;
-    margin: 5rem 5rem 0 0 ;
-}
-.banner .terminos{
-    background-color: var(--transparent);
-    color: var(--white);
-    padding: 1rem;
-    margin: 1rem 5rem 0 0  ;
-}
-.banner > .bg {
-    position: absolute;
-    top:0;
-    left: 0;
-    min-width: 100%;
-    z-index: 0;
+
+@media screen and (max-width: 950px) {
+    .bannerMain{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannerMainLeft, .info{
+        width: 100%;
+    }
+
+    .big{
+        font-size: 30px;
+    }
 }
