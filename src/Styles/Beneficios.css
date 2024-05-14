@@ -1,4 +1,31 @@
-.beneficios{
-    background: var(--bg);
-    color: var(--white);
+#Beneficios{
+    color: white;
+    padding: 2%;
+}
+
+.beneficiosheading{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.beneficiostop{
+    display: flex;
+}
+
+.beneficiostop img{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.beneficiosbutton{
+    background-color: #E5E4E2;
+    color: black;
+    border-style: none;
+    border-radius: 50px;
+    height: 70px;
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 30px;
 }
