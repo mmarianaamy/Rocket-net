@@ -1,4 +1,55 @@
 .contacto{
-    background-image: url(../Components/mineria.jpg);
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: var(--white);
+    overflow: hidden;
+}
+
+.contacto > * {
+    z-index: 1;
+}
+
+.contacto .c {
+    padding-right: 3rem;
+    width: 40%;
+}
+.contacto .form{
+    flex-grow: 1;
+    padding-right: 5rem;
+    
+}
+.contacto input {
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px white solid;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     color: white;
+    font-size: 1.2rem;
+
+}
+.contacto input:focus-visible {
+    outline: none;
+
+
+}
+.contacto .send {
+    background-color: var(--red);
+    padding: 1rem;
+    border-radius: 2rem;
+    color:white;
+    border: none;
+    width: 50%;
+    margin: auto;
+}
+.contacto > .bg {
+    position: absolute;
+    filter:brightness(0.5);
+    top:0;
+    left: 0;
+    min-width: 100%;
+    z-index: 0;
 }

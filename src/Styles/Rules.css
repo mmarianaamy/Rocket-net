@@ -3,13 +3,17 @@
 
 :root{
     /*Agregegar los colores*/
-    --primary: #9476E8;
     --black: #000000;
     --dark: #302E2E;
-    --secondary:#15CFE9;
     --white: #ffffff;
     --light:#E5E4E2;
     --transparent: #0C0000BA;
+    --secondary:#FB8800;
+    --transition:#FE4A00;
+    --red:#E20000;
+    --primary:#7E0050;
+    --bg: linear-gradient(to left,var(--secondary), var(--transition), var(--red), var(--primary));
+    --bg-reverse:  linear-gradient(to right,var(--secondary), var(--transition), var(--red), var(--primary));
 }
 
 *{
@@ -17,5 +21,6 @@
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
 }
 /* Important rules */
