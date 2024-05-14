@@ -5,7 +5,7 @@ import video from "../Assets/video.jpg"
 
 export default function Banner() {
   return (
-    <div>
+    <div id="Banner">
       <div class="banner" style={{backgroundImage: `url(${people})`}}>
         <div class="bannerMain"> 
           <div class="transparent info">
@@ -14,7 +14,7 @@ export default function Banner() {
           <div class="bannerMainLeft">
             <button class="apply" type="button" onClick={(e) => {
                 e.preventDefault();
-                window.location.href='https://www.arcacontal.com';
+                window.location.href='#Desafios';
               }}>¡Aplica ahora!</button>
             <div class="transparent revisar">
               <p>*Revisa términos y condiciones</p>
@@ -39,7 +39,7 @@ export default function Banner() {
             <p>Trabaja con nosotros: <a class="moreInfo" href="">Vacantes abiertas</a></p>
           </div>
           <div class="video">
-            <img src={video}></img>
+            <iframe src="https://youtu.be/jFfVPJPYc3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>

@@ -1,0 +1,15 @@
+.footer{
+    background: linear-gradient(90deg, #7E0050 0%, #E20000 50%, #FE4A00 75%, #FB8800 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+}
+
+#BottomLogo{
+    width: 20%;
+}
+
+.media{
+    width: 3%;
+}

@@ -3,7 +3,7 @@ import background2 from '../Assets/background1 - copia.png'
 
 export default function Evento() {
   return (
-    <div class = "event" style={{backgroundImage: `url(${background2})`}}>
+    <div id="Evento" class = "event" style={{backgroundImage: `url(${background2})`}}>
       <p class="eventHeader">Evento</p>
       <div class="eventBody">
         <div class="eventText">

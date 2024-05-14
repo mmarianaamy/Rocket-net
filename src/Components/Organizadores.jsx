@@ -1,7 +1,7 @@
 import React from 'react'
-import dgt from '../Assets/arc.png'
+import dgt from '../Assets/dgt.png'
 import arc from '../Assets/arc.png'
-import dgm from '../Assets/arc.png'
+import dgm from '../Assets/dgm.png'
 
 export default function Organizadores() {
   return (
