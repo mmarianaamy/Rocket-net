@@ -1,6 +1,7 @@
 import React from 'react'
 import people from "../Assets/banner.png"
 import arc from "../Assets/arc.png"
+import video from "../Assets/video.jpg"
 
 export default function Banner() {
   return (
@@ -38,7 +39,7 @@ export default function Banner() {
             <p>Trabaja con nosotros: <a class="moreInfo" href="">Vacantes abiertas</a></p>
           </div>
           <div class="video">
-            <iframe src="https://www.youtube.com/embed/rDBZTreLOkc?si=0lYKX4id10WlGZEp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src={video}></img>
           </div>
         </div>
       </div>

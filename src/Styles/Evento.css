@@ -1,3 +1,25 @@
 .event{
     color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.eventHeader{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.eventBody{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eventText{
+    width: 30%;
+}
+
+.eventText p{
+    font-size: 24px;
 }

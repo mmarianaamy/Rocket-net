@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Organizadores() {
   return (
-    <div>Organizadores</div>
+    <div class="organizadores">
+      <p>Organizan</p>
+    </div>
   )
 }
