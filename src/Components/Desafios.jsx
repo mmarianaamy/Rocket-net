@@ -1,4 +1,5 @@
 import React from 'react'
+import Desafio from "./Desafio"
 
 export default function Desafios() {
   return (
