@@ -4,7 +4,7 @@ import Desafio from "./Desafio"
 export default function Desafios() {
   return (
     <div>
-      <div name="Desafios" id="Desafio" class="desafiosHeading">
+      <div id="Desafios" class="desafiosHeading">
         <p><b>Desafíos</b></p>
       </div>
       <div class="desafios">

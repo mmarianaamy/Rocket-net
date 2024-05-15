@@ -13,6 +13,10 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    top:0;
+    width:98%;
+    z-index:100;
 }
 
 .expand{
@@ -33,6 +37,10 @@ img{
     .menu a{
         display: none;
     }
+
+    #TopLogo{
+        display: block;
+    }
     .menu button.terminos{
         display: none;
     }
@@ -41,10 +49,18 @@ img{
     }
     .expand{
         display:block;
+        margin-right: 50px;
     }
 
     #dropDown .select{
         margin: 4% auto;
+    }
+
+    .select a{
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 600;
     }
 }
 

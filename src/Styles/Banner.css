@@ -127,5 +127,6 @@
     }
     .infoPat{
         flex-direction: column;
+        width: 90%;
     }
 }
