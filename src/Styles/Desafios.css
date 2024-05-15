@@ -80,3 +80,13 @@
 #desafiosterminos{
     margin-left: 80%;
 }
+
+
+@media screen and (max-width: 950px) {
+    .desafios{
+        flex-direction: column;
+    }
+    .desafio{
+        width: 100%;
+    }
+}

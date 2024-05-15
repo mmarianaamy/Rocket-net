@@ -71,9 +71,6 @@
     background-color: white;
     display: flex;
     justify-content: center;
-}
-
-.patrocinador{
     padding: 5% 3%;
     font-size: 48px;
     display: flex;
@@ -124,5 +121,11 @@
 
     .big{
         font-size: 30px;
+    }
+    .patrocinador{
+        flex-direction: column;
+    }
+    .infoPat{
+        flex-direction: column;
     }
 }

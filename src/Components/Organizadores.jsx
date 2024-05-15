@@ -14,7 +14,7 @@ export default function Organizadores() {
       </div>
       <button class="aplica" type="button" onClick={(e) => {
           e.preventDefault();
-          window.location.href='https://www.arcacontal.com';
+          window.location.href='#Desafios';
         }}> <b>¡Aplica ahora!</b></button>
     </div>
   )

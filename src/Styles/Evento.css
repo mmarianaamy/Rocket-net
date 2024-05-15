@@ -23,3 +23,13 @@
 .eventText p{
     font-size: 24px;
 }
+
+
+@media screen and (max-width: 950px) {
+    .eventBody{
+        flex-direction: column;
+    }
+    .eventText{
+        width: 100%;
+    }
+}
