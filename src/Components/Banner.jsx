@@ -39,7 +39,7 @@ export default function Banner() {
             <p>Trabaja con nosotros: <a class="moreInfo" href="https://linktr.ee/carrerasacdigital ">Vacantes abiertas</a></p>
           </div>
           <div class="video">
-            <iframe src="https://youtu.be/jFfVPJPYc3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/jFfVPJPYc3Y?si=vd3O2lg1FZUZFE6V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function Menu() {
         <Link to="/" id="TopLogo"><img src={logo}></img></Link>
         <a href="#Banner">Arca Continental</a>
         <a href="#Desafios">Desafíos</a>
-        <a href="#Beneficios">Beneficios</a>
+        <a href="#Beneficios">Impacto</a>
         <a href="#Evento">Evento</a>
         <button class="terminos" type="button" onClick={(e) => {
           e.preventDefault();
