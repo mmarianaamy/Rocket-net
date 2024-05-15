@@ -9,9 +9,9 @@ export default function Footer() {
   return (
     <div class='footer'>
       <Link to="/" id="BottomLogo"><img src={logo}/></Link>
-      <Link to="Arca-Continental" class="media"><img src={instagram}></img></Link>
-      <Link to="Arca-Continental" class="media"><img src={facebook}></img></Link>
-      <Link to="Arca-Continental" class="media"><img src={twitter}></img></Link>
+      <Link to="https://www.linkedin.com/company/digital-hub-tec-mty/" class="media"><img src={instagram}></img></Link>
+      <Link to="https://www.linkedin.com/company/digital-hub-tec-mty/" class="media"><img src={facebook}></img></Link>
+      <Link to="https://www.instagram.com/digitalhub.tec?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="media"><img src={twitter}></img></Link>
     </div>
   )
 }

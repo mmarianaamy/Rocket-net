@@ -32,7 +32,7 @@ export default function Menu() {
           <a href="">Desafíos</a>
         </div>
         <div class="select">
-          <a href="">Beneficios</a>
+          <a href="">Impacto</a>
         </div>
         <div class="select">
           <a href="">Evento</a>
@@ -40,7 +40,7 @@ export default function Menu() {
         <div class="select">
           <button class="terminos" type="button" onClick={(e) => {
             e.preventDefault();
-            window.location.href='https://www.arcacontal.com';
+            window.location.href='https://drive.google.com/file/d/1cKt54hS_E_Fnn689vmTJ5kxs_Q3V0Zp8/view?usp=sharing';
           }}> <b>Términos y condiciones</b></button>
         </div>
       </div>

@@ -89,6 +89,10 @@
     .desafio{
         width: 100%;
     }
+
+    .desafioTitulo{
+        padding-bottom: 50px;
+    }
     .topDesafio{
         flex-direction: column;
         align-items: center;

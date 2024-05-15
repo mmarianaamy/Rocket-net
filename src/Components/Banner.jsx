@@ -36,10 +36,10 @@ export default function Banner() {
             <br></br>
             <p>El <b>AC Digital Nest</b>, es el equipo detrás del desarrollo digital de la fuerza de ventas de Arca Continental y más de 1 millón de tiendas de abarrotes y pequeños comercios en Latinoamérica.</p>
             <br></br>
-            <p>Trabaja con nosotros: <a class="moreInfo" href="">Vacantes abiertas</a></p>
+            <p>Trabaja con nosotros: <a class="moreInfo" href="https://linktr.ee/carrerasacdigital ">Vacantes abiertas</a></p>
           </div>
           <div class="video">
-            <iframe src="https://youtu.be/jFfVPJPYc3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://youtu.be/jFfVPJPYc3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
           </div>
         </div>
       </div>
