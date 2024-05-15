@@ -14,7 +14,7 @@ export default function Evento() {
           <p>Digital Hub Monterrey Campus</p>
           <p>Blvd Gustavo Díaz Ordaz 333, Zona Industrial, 66210 San Pedro Garza García, N.L.</p>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d920.0940050732243!2d-100.4171176316131!3d25.676016272052333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866297e12ea79dbb%3A0xa1fa328d8b8dc1c7!2sMonterrey%20Digital%20Hub!5e0!3m2!1sen!2smx!4v1715712568321!5m2!1sen!2smx" width={400} height={300} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d920.0940050732243!2d-100.4171176316131!3d25.676016272052333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866297e12ea79dbb%3A0xa1fa328d8b8dc1c7!2sMonterrey%20Digital%20Hub!5e0!3m2!1sen!2smx!4v1715712568321!5m2!1sen!2smx" height={300} allowfullscreen="" loading="lazy"  class="maps" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   )

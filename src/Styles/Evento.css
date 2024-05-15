@@ -24,6 +24,10 @@
     font-size: 24px;
 }
 
+.maps{
+    width: 600px;
+}
+
 
 @media screen and (max-width: 950px) {
     .eventBody{
@@ -31,5 +35,8 @@
     }
     .eventText{
         width: 100%;
+    }
+    .maps{
+        width: 90%;
     }
 }
