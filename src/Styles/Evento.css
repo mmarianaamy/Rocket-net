@@ -30,11 +30,23 @@
 
 
 @media screen and (max-width: 950px) {
+    .event{
+        padding-inline: 2rem;
+    }
+    .eventHeader{
+        margin-top: 2rem;
+    }
     .eventBody{
         flex-direction: column;
+        padding-inline: 2rem;
+        margin-bottom: 2rem;
     }
     .eventText{
         width: 100%;
+        margin-bottom: 2rem;
+    }
+    .eventText p{
+        font-size: 22px;
     }
     .maps{
         width: 90%;
