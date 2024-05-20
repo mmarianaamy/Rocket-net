@@ -35,8 +35,12 @@
     .beneficiostop{
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+        padding-inline: 2.5rem;
     }
     .beneficiostop img{
         width: 80%;
+        margin: 2rem;
     }
 }

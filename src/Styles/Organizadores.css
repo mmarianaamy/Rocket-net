@@ -46,4 +46,11 @@
         margin-bottom: 20px;
         width: 60%;
     }
+    .aplica{
+        margin-top: 2rem;
+        font-size: 25px;
+    }
+    .organizadores p{
+        margin-bottom: 2rem;
+    }
 }

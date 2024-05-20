@@ -26,7 +26,7 @@
     width: 100%;
     height: 40%;
     margin: 2%;
-    font-size: 32px;
+    font-size: 23px;
     font-weight: 600;
 }
 
@@ -114,19 +114,43 @@
         flex-direction: column;
         align-items: center;
     }
-
+    .banner{
+        margin-top: 4.3rem;
+        padding-bottom: 2rem;
+    }
     .bannerMainLeft, .info{
         width: 100%;
     }
-
+    .bannerMainLeft{
+        padding-top: 2rem;
+    }
     .big{
         font-size: 30px;
     }
     .patrocinador{
         flex-direction: column;
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-inline: 1.5rem;
+        font-size: 25px;
     }
     .infoPat{
         flex-direction: column;
         width: 90%;
+        align-items: center;
+    }
+    .infoTextPat{
+        font-size: 20px;
+    }
+    .apply{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 14rem;
+    }
+    .transparent{
+        min-width: 6rem;
+    }
+    .video{
+        max-width: 100%;
     }
 }
