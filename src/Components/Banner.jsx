@@ -21,9 +21,6 @@ export default function Banner() {
             </div>
           </div>
         </div>
-        <div class="transparent verMas">
-          <p>Ver más</p>
-        </div>
       </div>
       <div class="patrocinador">
         <div>
