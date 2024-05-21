@@ -10,11 +10,15 @@
 }
 .desafio{
     width: 33.33%;
-    height: 800px;
+    height: 850px;
     background-size:cover;
     background-position: center;
     display: flex;
     align-items: flex-end;
+}
+
+.desafiotext{
+    height: 180px;
 }
 
 .desafioTitulo{
@@ -78,7 +82,11 @@
 }
 
 #desafiosterminos{
-    margin-left: 70%;
+    margin-left: 50%;
+}
+
+.vermasdesafios{
+    margin-bottom: 200px;
 }
 
 
