@@ -11,8 +11,10 @@ export default function Desafio({id}) {
     <div class="desafio" style={{backgroundImage: `url(${fotos[id - 1]})`}}>
       <div class="desafioTitulo">
         <p>Desafío {id}</p>
-        <p style={{color: "white"}}>{info[id - 1]}</p>
-        <button><Link to={`Desafios/${id}`} class="link">Ver más</Link></button>
+        <div class="desafiotext">
+          <p style={{color: "white"}}>{info[id - 1]}</p>
+        </div>
+        <Link to={`Desafios/${id}`} class="link"><button>Ver más</button></Link>
       </div>
     </div>
   )
