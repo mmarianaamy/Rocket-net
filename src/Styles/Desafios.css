@@ -17,6 +17,10 @@
     align-items: flex-end;
 }
 
+.desafiotext{
+    height: 180px;
+}
+
 .desafioTitulo{
     height: 40%;
     background: #0C0000BA;
