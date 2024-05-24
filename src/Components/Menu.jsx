@@ -6,11 +6,11 @@ export default function Menu() {
   return (
     <div class="wholeMenu">
       <div class="menu">
-        <Link to="/#Banner" id="TopLogo"><img src={logo}></img></Link>
-        <a href="#Banner">Arca Continental</a>
-        <a href="#Desafios">Desafíos</a>
-        <a href="#Beneficios">Impacto</a>
-        <a href="#Evento">Evento</a>
+        <a href="/#Banner" id="TopLogo"><img src={logo}></img></a>
+        <a href="/#Banner">Arca Continental</a>
+        <a href="/#Desafios">Desafíos</a>
+        <a href="/#Beneficios">Impacto</a>
+        <a href="/#Evento">Evento</a>
         <button class="terminos" type="button" onClick={(e) => {
           e.preventDefault();
           window.location.href='https://drive.google.com/file/d/1cKt54hS_E_Fnn689vmTJ5kxs_Q3V0Zp8/view?usp=sharing';
