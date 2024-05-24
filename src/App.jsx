@@ -28,7 +28,6 @@ function App() {
               <Route path="/Terminos" element={<Terminos/>}/>
             </Routes>
           
-          <Contacto/>
           <Footer/>
         </BrowserRouter>
       </div>

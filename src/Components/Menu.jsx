@@ -6,7 +6,7 @@ export default function Menu() {
   return (
     <div class="wholeMenu">
       <div class="menu">
-        <Link to="/" id="TopLogo"><img src={logo}></img></Link>
+        <Link to="/#Banner" id="TopLogo"><img src={logo}></img></Link>
         <a href="#Banner">Arca Continental</a>
         <a href="#Desafios">Desafíos</a>
         <a href="#Beneficios">Impacto</a>
@@ -29,13 +29,13 @@ export default function Menu() {
           <a href="">Arca Continental</a>
         </div>
         <div class="select">
-          <a href="#Desafios">Desafíos</a>
+          <a href="/#Desafios">Desafíos</a>
         </div>
         <div class="select">
-          <a href="#Beneficios">Impacto</a>
+          <a href="/#Beneficios">Impacto</a>
         </div>
         <div class="select">
-          <a href="#Evento">Evento</a>
+          <a href="/#Evento">Evento</a>
         </div>
         <div class="select">
           <button class="terminos" type="button" onClick={(e) => {
