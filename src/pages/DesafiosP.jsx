@@ -40,9 +40,17 @@ export default function DesafiosP(){
                 {id == 2 ? <div><ul><li>Perfiles netamente técnicos: estudiantes de ciberseguridad, informática, desarrolladores, bases de datos, cloud, telecomunicaciones y redes.</li><li>Pueden participar de forma individual o en equipos de hasta 4 personas</li></ul></div> : <div></div>}
                 {id == 3 ? <div><p>Los equipos pueden ser de 3 a 4 participantes, idealmente sólo uno del equipo debe ser de Negocio/traductor de datos: </p>
                 <ul>
-                    <li>Técnico: Data Science y cualquier carrera relacionada a datos. Manejo de modelos y herramientas de datos.</li>
+                    <li>Técnico: Data Science y cualquier carrera relacionada a datos. Manejo de modelos y herramientas de datos.
+                    <p>Requerimientos técnicos</p>
+                        <ul>
+                            <li>Python y librerias</li>
+                            <li>Framework Jupiter</li>
+                            <li>Trabajar de forma local</li>
+                        </ul></li>
                     <li>Negocio/traductor de datos: Habilidades blandas y de entendimiento del negocio para expresarlos en datos. Preferiblemente (pero no excluyente) de las carreras de Industrial, Innovación y desarrollo, finanzas y otras relacionadas.</li>
-                </ul></div> : <div></div>}
+                </ul>
+                
+                </div> : <div></div>}
                 <button id="desafiosterminos" class="terminos" type="button" onClick={(e) => {
             e.preventDefault();
             window.location.href='https://drive.google.com/file/d/1cKt54hS_E_Fnn689vmTJ5kxs_Q3V0Zp8/view?usp=sharing';
