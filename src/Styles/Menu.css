@@ -32,7 +32,7 @@ img{
     align-items: center;
     background: linear-gradient(0.25turn, #7E0050, #E20000, #FE4A00, #FB8800);
     position: fixed;
-    top: 20px;
+    top: 50px;
     width: 100%;
 }
 

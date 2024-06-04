@@ -79,10 +79,12 @@
 
 .desafiosPage{
     padding: 2%;
+    width: 90%;
+    margin-top: 50px;
 }
 
 #desafiosterminos{
-    margin-left: 50%;
+    margin-top: 20px;
 }
 
 .vermasdesafios{
@@ -112,5 +114,10 @@
     }
     .toprightDesafio button{
         margin-bottom: 50px;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

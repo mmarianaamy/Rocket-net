@@ -26,16 +26,28 @@ export default function Menu() {
       </div>
       <div id="dropDown">
         <div class="select">
-          <a href="">Arca Continental</a>
+          <a href="" onClick={(e) => {
+            var x = document.getElementById("dropDown");
+            x.style.display="none";
+          }}>Arca Continental</a>
         </div>
         <div class="select">
-          <a href="/#Desafios">Desafíos</a>
+          <a href="/#Desafios" onClick={(e) => {
+            var x = document.getElementById("dropDown");
+            x.style.display="none";
+          }}>Desafíos</a>
         </div>
         <div class="select">
-          <a href="/#Beneficios">Impacto</a>
+          <a href="/#Beneficios" onClick={(e) => {
+            var x = document.getElementById("dropDown");
+            x.style.display="none";
+          }}>Impacto</a>
         </div>
         <div class="select">
-          <a href="/#Evento">Evento</a>
+          <a href="/#Evento" onClick={(e) => {
+            var x = document.getElementById("dropDown");
+            x.style.display="none";
+          }}>Evento</a>
         </div>
         <div class="select">
           <button class="terminos" type="button" onClick={(e) => {
