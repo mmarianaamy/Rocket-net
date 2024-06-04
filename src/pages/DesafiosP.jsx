@@ -12,7 +12,7 @@ export default function DesafiosP(){
     ]
     var imagenes = [imagen1, imagen2, imagen3]
 
-    var links = ["https://forms.gle/TYjMAh3zjotSmMYm7", "https://forms.gle/iDyX9iz9RkuK8FPZ6", "https://forms.gle/wLnVsFGE3wxB3sbD7"]
+    var links = ["https://share.hsforms.com/1fF3zzktMT224RSCL8vrDYw32iub", "https://share.hsforms.com/1fF3zzktMT224RSCL8vrDYw32iub", "https://share.hsforms.com/1fF3zzktMT224RSCL8vrDYw32iub"]
 
     return(
     <>  
